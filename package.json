@@ -1,42 +1,24 @@
 {
-    "title": "Landing Page",
-    "name": "startbootstrap-landing-page",
-    "version": "4.1.1",
-    "description": "An HTML landing page template built with Bootstrap",
-    "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
-    ],
-    "homepage": "https://startbootstrap.com/template-overviews/landing-page",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-landing-page/issues",
-        "email": "feedback@startbootstrap.com"
-    },
-    "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-landing-page.git"
-    },
-    "dependencies": {
-        "bootstrap": "4.1.1",
-        "font-awesome": "4.7.0",
-        "jquery": "3.3.1",
-        "simple-line-icons": "^2.4.1"
-    },
-    "devDependencies": {
-        "browser-sync": "2.24.5",
-        "gulp": "^3.9.1",
-        "gulp-clean-css": "3.9.4",
-        "gulp-header": "2.0.5",
-        "gulp-rename": "1.3.0",
-        "gulp-sass": "4.0.1"
-    }
+  "name": "nasa-api_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avinashbansal95/Nasa-Api_Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avinashbansal95/Nasa-Api_Project/issues"
+  },
+  "homepage": "https://github.com/avinashbansal95/Nasa-Api_Project#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "request": "^2.87.0"
+  }
 }

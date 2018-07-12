@@ -29,14 +29,13 @@ fetch(url)
 .catch(err => { throw err });
 }
 
-window.onload = function(){
-    let url = "https://api.nasa.gov/planetary/apod?api_key=wIbFNvwjLvxNtDJFwnn7KjoqlOvdBYubIzUh5hJI";
-    fetch(url)
-        .then(res => res.json())
-        .then((out) => {
-            image = out.hdurl;
-            document.querySelector("body").background = `${image}`;
-            console.log(image);
-        })
-        .catch(err => { throw err });
-        }
+//window.onload = function(){
+//    let url = "https://api.nasa.gov/planetary/apod?api_key=wIbFNvwjLvxNtDJFwnn7KjoqlOvdBYubIzUh5hJI";
+//    fetch(url)
+//        .then(res => res.json())
+//        .then((out) => {
+//            image = out.hdurl;
+//            document.querySelector("body").background = `${image}`;
+//            console.log(image);
+//        })
+//        .catch(err => { throw err });
